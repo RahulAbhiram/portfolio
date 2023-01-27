@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&display=swap');
+</style>
+</style>
+
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+.main{
+  /* background-color: blue;*/
+  padding: 20px;
+
+}
+
+.container{
+  display: flex;
+}
+
+
+.infoContainer{
+/*  background-color: yellow;*/
+  height: 78vh;
+
+  margin: 144px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.devPic{
+
+
+  object-fit: cover;
+
+}
+.r{
+  height: 240px;
+  width: 240px;
+  border-radius:50%;
+}
+.devInfo{
+  display: inline-block;
+  justify-content:  flex-start;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.hello{
+   font_size:25px;
+
+}
+
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about{
+  font-size: 40px;
+}
+.moreabout{
+  font-size: 29px;
+  margin-top: 23px;
+  font-family: 'Poppins', sans-serif;
+}
+.button{
+  margin-top: 34px;
+}
+
+.btn {
+  
+  border-radius: 22px;
+  color:white;
+  background-color: red;
+  font-weight: bold;
+  
+  margin: 0 3 px;
+  cursor: pointer;
+}
+.btn-sm{
+  font-size: 14px;
+  padding : 10px 19px;
+  margin: 12px 0;
+}
+
+
+.button button:hover{
+  background-color: white;
+  background-color: dodgerblue;
+}
+
+.contactform {
+  padding: 0 34px;
+  justify-content: center;
+  padding-top: 104px;
+font-family: 'Lobster', cursive;
+
+}
+.contactform h1{
+font-family: 'Lobster', cursive;
+text-align: center;
+justify-content: center;
+
+padding: 12px 0;
+}
+.contactform form div{
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactform form div input{
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+  justify-content: center;
+}
+
+#emailHelp{
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+#form-check{
+  flex-direction: row;
+
+}
+
+#form-check-input{
+width: 24px;
+margin: 3px 0;S
+}
+
+.Blogitem h2{
+  margin: 23px;
+  font-family: 'Poppins', sans-serif;
+}
+
+ h1{
+font-family: 'Poppins', sans-serif;
+  margin: 23px;
+}
+
+p{
+font-family: 'Lobster', cursive;
+}
+
+.intro {
+font-family: 'Lobster', cursive;
+margin: 6px 12px;
+padding: 10px;
+text-align: center;
+justify-content: center;
+}
+
+.intro p{
+  font-family: 'Poppins', sans-serif;
+  margin: 12px;
+  text-align: center;
+  justify-content: center;
+}
+
+.skillcontainer{
+  padding: 12px;
+}
+
+.skillitem{
+  display: flex;
+  align-items: centre;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.skill{
+  width: 30px;
+  height: 6px;
+  background-color:midnightblue;
+}
+
+.t5{
+  width: 75px;
+  background-color: aqua;
+}
+
+.footer-col :hover{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  color: white;
+}
